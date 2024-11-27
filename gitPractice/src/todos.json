@@ -1,0 +1,30 @@
+{
+    "todo":[
+        {
+            "title": "Planning",
+            "description": "Plan the day on Calendar",
+            "doneStatus":"False",
+            "id":1
+        },
+        {
+            "title":"Breakfast",
+            "description":"Finish your breakfast",
+            "doneStatus":"False",
+            "id":2
+
+        },
+        {
+            "title":"Learning",
+            "description":"Assignments from Becoming a Technical tester",
+            "doneStatus":"False",
+            "id":3
+        },
+        {
+            "title":"Sprint Focus",
+            "description":"Finish up planned sprint items",
+            "doneStatus":"False",
+            "id":4
+        }
+
+    ]
+}

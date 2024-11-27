@@ -1,0 +1,48 @@
+# TODO List CRUD Operations in JSON
+This project implements basic CRUD (Create, Read, Update, Delete) operations on a TODO list stored in a JSON file. It demonstrates Python's file-handling and JSON manipulation capabilities, providing a simple yet effective way to manage a TODO list.
+
+---
+
+## Features
+
+- Add new tasks to the TODO list
+- View all tasks in the TODO list
+- Update existing tasks
+- Delete tasks
+- JSON-based storage for persistent data
+
+---
+
+## Technologies Used
+
+- Python 3.x
+- JSON for data storage
+- Logging for error handling
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+
+1. Install Python 3.x on your system.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/todo-crud-json.git
+
+## Folder Structure
+Technical Tester/
+│
+├── Git Practice/
+│   ├── src/
+│   │   ├── main.py           # Entry point for the application
+│   │   ├── load_list.py      # Contains the load_list function
+│   │
+│   ├── data/
+│   │   ├── todos.json        # JSON file storing the TODO list
+│   │
+│   └── configs/              # Configuration files (if any)
+
+
+##License
+[MIT License][https://choosealicense.com/licenses/mit/]
