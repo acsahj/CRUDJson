@@ -31,17 +31,25 @@ This project implements basic CRUD (Create, Read, Update, Delete) operations on 
    git clone https://github.com/your-username/todo-crud-json.git
 
 ## Folder Structure
-Technical Tester/
-│
-├── Git Practice/
-│   ├── src/
-│   │   ├── main.py           # Entry point for the application
-│   │   ├── load_list.py      # Contains the load_list function
-│   │
-│   ├── data/
-│   │   ├── todos.json        # JSON file storing the TODO list
-│   │
-│   └── configs/              # Configuration files (if any)
+CRUDJSON/
+|
+├── configs/
+|   └── __init__.py          # Initialization file for configs
+|
+├── Data/
+|   └── todos.json           # JSON file containing the todo list data
+|
+├── src/
+|   ├── __init__.py          # Initialization file for source code
+|   └── load_todo.py         # Script to load and process todo data
+|
+├── tests/
+|   └── __init__.py          # Initialization file for tests
+|
+├── LICENSE                  # Project license file
+├── README                   # Project readme file
+└── requirements.txt         # Dependencies for the project
+
 
 
 ##License
