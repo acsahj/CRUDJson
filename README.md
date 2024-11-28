@@ -25,7 +25,7 @@ This project implements basic CRUD (Create, Read, Update, Delete) operations on 
    git clone https://github.com/your-username/todo-crud-json.git
    
 ## Folder Structure
-CRUDJSON/
+```CRUDJSON/
 |
 ├── configs/
 |   └── __init__.py          # Initialization file for configs
@@ -43,6 +43,7 @@ CRUDJSON/
 ├── LICENSE                  # Project license file
 ├── README                   # Project readme file
 └── requirements.txt         # Dependencies for the project
+```
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
