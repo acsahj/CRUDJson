@@ -14,8 +14,6 @@ class jsonWork:
     def load_list(self):
         # base_path = "/Users/acsah/technicalTester"
         # file_path = "base_path/gitPractice/src/todos.json"
-        file_path= "/Users/acsah/technicalTester/gitPractice/src/todos.json"
-
         try: 
             with open(file_path,"r") as file:
                 data=json.load(file)
