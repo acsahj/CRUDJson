@@ -14,8 +14,6 @@ class jsonWork:
     file_path= "/Users/apple/Documents/CRUDJson/gitPractice/Data/todos.json"
     @classmethod
     def load_list(cls):
-        # base_path = "/Users/acsah/technicalTester"
-        # file_path = "base_path/gitPractice/src/todos.json"
         try: 
             with open(cls.file_path,"r") as file:
                 data=json.load(file)
@@ -49,5 +47,5 @@ class jsonWork:
 
     
 
-# jsonWork.load_list()
-# jsonWork.get_todo_details(2)
+jsonWork.load_list()
+jsonWork.get_todo_details(2)

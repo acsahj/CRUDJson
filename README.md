@@ -18,6 +18,7 @@ This project implements basic CRUD (Create, Read, Update, Delete) operations on 
 - Python 3.x
 - JSON for data storage
 - Logging for error handling
+
 ## Setup Instructions
 1. Install Python 3.x on your system.
 2. Clone this repository:
